@@ -31,12 +31,20 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-
+  border: solid 2px black;
+  display: flex;
+  flex-direction: row;
+  height: 8rem;
+  width: 100%;
 }
 
-footer {
-
+header + section {
+  border: solid 2px black;
+  height: 45rem;
+  width: 100%;
 }
+
+
 
 /******************************************
 /* ADDITIONAL STYLES

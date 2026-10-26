@@ -32,8 +32,57 @@ body {
 /*******************************************/
 
 header {
-  
+  border: solid 2px black;
+  display: flex;
+  flex-direction: row;
+  height: 5rem;
+  width: 100%;
 }
+
+main {
+  border: solid 2px orangered;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 25rem;
+  width: 100%;
+}
+main > .leftSide {
+  border: solid 2px black;
+  height: 100%;
+  width: 50%;
+}
+main > .rightSide {
+  border: solid 2px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 50%;
+}
+main > .rightSide > div {
+  border: solid 2px black;
+  height: 50%;
+  width: 40%;
+}
+
+main + section {
+  display: flex;
+  border: solid 4px black;
+  height: 22rem;
+  width: 100%;
+}
+
+main + section > div {
+  border: solid 2px black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 33.333%;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
